@@ -178,6 +178,16 @@
     .banner h3 {
       font-size: 3rem;
     }
+    .banner h3 {
+      position: absolute;
+      right: 1%;
+      top: 17%;
+    }
+    .banner h2 {
+      position: absolute;
+      right: 1%;
+      top: 22%;
+    }
   
     h2 {
       font-size: 2rem;
