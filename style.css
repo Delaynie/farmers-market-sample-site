@@ -1,0 +1,200 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Utility Classes */
+  
+  .left   { text-align: left;   }
+  .right  { text-align: right;  }
+  .center { text-align: center; }
+  
+  .padded     { padding: 5%;  }
+  .no-padding { padding: 0;   }
+
+  .flex-flip:nth-child(2n){  flex-direction: row-reverse; }
+  
+  .bg-light { background-color: rgb(238, 230, 213); }
+  
+  .bg-dark {
+    background-color: rgb(66, 60, 55);
+    color: white;
+  }
+  
+  .bg-image {
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(200,200,205);
+  }
+
+  .bg-market {
+    background-image:url('/images/inigo-de-la-maza.jpg');
+  }
+  
+  .bg-hands {
+    background-image:url('/images/elaine-casap.jpg');
+  }
+  
+  .button {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    border: 1px solid;
+    color: rgb(60,60,60);
+    display: inline-block;
+    transition: all 0.5s;
+  }
+  
+  .button:hover {
+    background-color: rgb(60,60,60);
+    color: white;
+    border-color: rgb(60,60,60);
+  }
+  
+  /* Universal Styles */
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(60,60,65);
+    background-image: url('/images/winston-chen-s6Gf7VSV7_4-unsplash.jpg');
+    background-size: cover;
+  }
+  
+  h2, h3, h4 {
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  h2 {
+    font-size: 2.8rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+  
+  /* header & footer */
+  header {
+    padding: 1% 5%;
+  }
+  
+  header a {
+      text-decoration: none;
+      color: inherit;
+      padding: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+  header a:hover {
+    color: rgb(120,120,125);
+  }
+  header h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+  }
+  
+  footer a {
+      text-decoration: none;
+      color: inherit;
+      padding: 0.5rem;
+      font-weight: bold;
+      display: inline-block;
+  }
+  
+  footer a:hover {
+    color: orange;
+  }
+  
+  footer .fab {
+    font-size: 2rem;
+  }
+  
+  
+  
+  /* ------------ Banner ---------- */
+  
+  .banner {
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/brooke-cagle-TiTU0k1E0UE-unsplash.jpg');
+    min-height: 80vh;
+    color: rgb(243, 236, 247);
+    opacity: .9;
+  }
+
+  .overlay {
+    opacity: 1;
+  }
+
+  .overlays {
+    background: linear-gradient(0deg, #ececec88 5%, #ffffff44 100%);
+  }
+  
+  .banner h3 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  .banner h2 {
+    font-size: 1.8rem;
+    font-weight: normal;
+  }
+  
+  /* This prevents the sections from having a blue outline when we click to them from the menu */
+  
+  section:focus,
+  footer:focus  {
+    outline: none;
+  }
+  
+  /* Media Queries */
+  
+  @media(max-width:768px) {
+  
+    /* you can add this class to any element that you want to hide on mobile. We've used a selector that includes the id of the body to ensure that this is a very specific selector and we don't have any specificity issues */
+    #body .mobile-hide {
+      display: none;
+    }
+  
+    /* add the class to the parent container, the one that has the 'grid' class, of columns that you want to reverse on mobile. So if you have 4 sections with 2 columns each you would add it to every second section. */
+    .reverse-on-mobile {
+      flex-direction: column-reverse;
+    }
+  
+    .bg-image {
+      padding-bottom: 50%;
+    }
+  
+    .banner {
+      min-height: 60vh;
+    }
+    .banner h3 {
+      font-size: 3rem;
+    }
+  
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  
+    p {
+      font-size: 1.2rem;
+    }
+  
+    .center {
+      text-align:left;
+    }
+  
+    .mobile-hide {
+      display: none;
+    }
+  
+  }
+  

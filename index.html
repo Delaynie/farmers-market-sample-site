@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+    <title>Smallville Farmer's Market</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    
+    <!--link google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+
+    <!-- this is the icon font, fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    
+    <!-- FAVICON ICONS -->
+
+    
+    <!--link gridlex-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
+    
+    <!--link css-->
+    <link rel="stylesheet" href="style.css">
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+
+ <!-- This adds jquery and smooth scrolling -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="scripts.js"></script>
+
+
+   </head>
+
+  <!-- This is the main content of the page -->
+  <body id="body">
+
+    <!-- this is our main header -->
+    <header class="grid">
+      <div class="col-4_sm-12 no-padding">
+        <h1> Oden Farmer's Market </h1>
+      </div>
+      <nav class="col-8_sm-12-middle mobile-hide right no-padding">
+        <a href="#features"> Features </a>
+        <a href="#about"> About </a>
+        <a href="#location"> Location </a>
+        <a href="#social"> Social </a>
+      </nav>
+    </header>
+
+    <!-- this is our intro banner section -->
+    <section class="banner padded right grid">
+      <div class="col-12-middle overlay">
+        <h3> Farm to Table </h3>
+        <h2> Visit Oden's Farmer Market </h2>
+      </div>
+    </section>
+
+    <section class="padded" id="features">
+        <div class="grid padded flex-flip">
+          <div class="col-5_sm-12 bg-image bg-market">
+          </div>
+          <div class="col-7_sm-12-middle padded overlays">
+            <h4 class="subtle-heading"> An experience awaits </h4>
+            <h3> See for yourself what makes us so special </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <a class="button" href="#"> Read More </a>
+          </div>
+        </div>
+        <div class="grid padded flex-flip">
+          <div class="col-5_sm-12 bg-image bg-hands">
+          </div>
+          <div class="col-7_sm-12-middle padded overlays">
+            <h4 class="subtle-heading"> From our hearts to your hands </h4>
+            <h3> Fresh fruits and vegetables </h3>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+            <a class="button" href="#"> Read More </a>
+          </div>
+      
+        </div>
+      </section>
+ 
+    <!-- this is our CTA section -->
+    <section class="padded center bg-light" id="about">
+        <h2> Award Winning Vegetables </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="slides.pdf" class="button" target="_blank"> Request Info </a>
+    </section>
+
+    <!-- this is our map section -->
+    <section class="grid padded" id="location">
+      <div class="col-6_sm-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.144848703458!2d103.81866796652272!3d1.3032659240748508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc013038121727be5!2sSealy+Sleep+Palace+(Flagship+Store)!5e0!3m2!1sen!2ssg!4v1557985951593!5m2!1sen!2ssg" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class="col-6_sm-12 padded overlays">
+        <h2> where to find us </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p> <strong>Address:</strong> 1 Main St Downtown Oden </p>
+        <p> <strong>When:</strong> Saturday mornings - April through September </p>
+
+      </div>
+
+    </section>
+
+    <!-- this is our footer -->
+    <footer class="padded center bg-dark grid-center" id="social">
+      <div class="col-8_sm-12">
+        <h2> Join our Community </h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+        <a href="mailto:hello@company.com"> hello@company.com </a>
+        <nav class="social-links">
+          <a href="#">
+              <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#">
+              <i class="fab fa-youtube"></i>
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+      <!-- footer for insta link and copyrights -->   
+            <p>Built by RadFox &copy; 2020-2021 all rights reserved.</p>
+            
+
+</body>
+</html>
