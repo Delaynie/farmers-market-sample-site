@@ -36,11 +36,11 @@
   <body id="body">
 
     <!-- this is our main header -->
-    <header class="grid">
-      <div class="col-4_sm-12 no-padding">
-        <h1>Smallville Farmer's Market</h1>
+    <header class="grid mobile-hide">
+      <div class="col-4_sm-12 padding-05"><a href="#body">
+        <h1>Smallville Farmer's Market</h1></a>
       </div>
-      <nav class="col-8_sm-12-middle mobile-hide right no-padding">
+      <nav class="col-8-middle right padding-05">
         <a href="#features"> Features </a>
         <a href="#about"> About </a>
         <a href="#location"> Location </a>
@@ -48,7 +48,13 @@
       </nav>
     </header>
 
-    <!-- this is our intro banner section -->
+    <header class="grid mobile-display">
+      <div class="col-4_sm-12 center padding-05"><a href="#body">
+        <h1>Smallville Farmer's Market</h1></a>
+      </div>
+    </header>
+
+    <!-- this is the banner section -->
     <section class="banner padded right grid">
       <div class="col-12-middle overlay">
         <h3> Farm to Table </h3>
@@ -56,24 +62,25 @@
       </div>
     </section>
 
+    <!-- First and second pics with headers/paragraphs. Start of features -->
     <section class="padded" id="features">
         <div class="grid padded flex-flip">
           <div class="col-5_sm-12 bg-image bg-market">
           </div>
-          <div class="col-7_sm-12-middle padded overlays">
-            <h4 class="subtle-heading"> An experience awaits </h4>
-            <h3> See for yourself what makes us so special </h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="col-7_sm-12-middle center padded overlays">
+            <h4 class="left mobile-postition"> An experience awaits </h4>
+            <h3 class="left mobile-position"> See for yourself what makes us so special </h3>
+            <p class="left mobile-position"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <a class="button"> Read More </a>
           </div>
         </div>
         <div class="grid padded flex-flip">
           <div class="col-5_sm-12 bg-image bg-hands">
           </div>
-          <div class="col-7_sm-12-middle padded overlays">
-            <h4 class="subtle-heading"> From our hearts to your hands </h4>
-            <h3> Fresh fruits and vegetables </h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+          <div class="col-7_sm-12-middle center padded overlays">
+            <h4 class="left mobile-position"> From our hearts to your hands </h4>
+            <h3 class="left mobile-position"> Fresh fruits and vegetables </h3>
+            <p class="left mobile-position"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <a class="button"> Read More </a>
           </div>
       
@@ -122,9 +129,6 @@
         <p>Site Built by Delaynie Wheeler; 2021 all rights reserved.</p>
       </div>
     </footer>
-
-      <!-- footer for insta link and copyrights -->   
-            <p></p>
             
 
 </body>
