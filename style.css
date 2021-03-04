@@ -175,6 +175,9 @@
       z-index: 2;
       background-color: rgb(252, 235, 199);
       font-size: .6rem;
+      opacity: .9;
+      color: rgb(0, 0, 0);
+      background-image: linear-gradient(0deg, #a5740b88 20%, #f8ee9644 100%);
   }
     /* you can add this class to any element that you want to hide on mobile. We've used a selector that includes the id of the body to ensure that this is a very specific selector and we don't have any specificity issues */
     #body .mobile-hide {
