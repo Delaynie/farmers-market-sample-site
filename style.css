@@ -102,7 +102,8 @@
       height: auto;
   }
   header a:hover {
-    color: rgb(120,120,125);
+    color: rgb(17, 13, 2);
+    border-bottom: 1px solid rgb(17, 13, 2);
   }
   header h1 {
     text-transform: uppercase;
@@ -233,6 +234,10 @@
   
     .mobile-hide {
       display: none;
+    }
+
+    iframe {
+      height: 200;
     }
   
   }
