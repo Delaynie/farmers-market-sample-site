@@ -33,10 +33,12 @@
 
   .bg-market {
     background-image:url('/images/inigo-de-la-maza.jpg');
+    border-radius: 5px;
   }
   
   .bg-hands {
     background-image:url('/images/elaine-casap.jpg');
+    border-radius: 5px;
   }
   
   .button {
@@ -146,6 +148,7 @@
 
   .overlays {
     background: linear-gradient(0deg, #ececec88 5%, #ffffff44 100%);
+    border-radius: 5px;
   }
   
   .banner h3 {
